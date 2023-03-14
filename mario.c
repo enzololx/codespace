@@ -1,8 +1,8 @@
 #include<stdio.h>
-
+#include <cs50.h>
 int main(void)
 {
-    const int n =8;
+    int n = get_int ("size: ");
     for(int i = 0; i < n; i++)
     {
         for(int j = 0; j < n; j++ )
