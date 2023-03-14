@@ -7,7 +7,7 @@ int main(void)
     {
         n = get_int("size: ");
     }
-
+     while (n < 3);
 
     for(int i = 0; i < n; i++)
     {
